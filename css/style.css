@@ -7,4 +7,21 @@ h1{
 #Parrafo{
     color: darkmagenta;
 }
+#grid {
+    background-image: linear-gradient(red, yellow);
+}
  
+.bt {
+    background-image: linear-gradient(to right, red , purple);
+
+}
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+  
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+
+
